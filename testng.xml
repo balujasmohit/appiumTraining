@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+<!--   <test name="Test1"> -->
+<!--   <parameter name="DeviceId" value="HNB3NA88"></parameter> -->
+<!--   <parameter name="Version" value="8.0.0"></parameter> -->
+<!--   <parameter name="Port" value="4746"></parameter> -->
+<!--     <classes> -->
+<!--       <class name="parallelTests.IosTests"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+  
+<!--   <test name="Test2"> -->
+<!--   <parameter name="DeviceId" value="192.168.148.102:5555"></parameter> -->
+<!--   <parameter name="Version" value="6.0"></parameter> -->
+<!--   <parameter name="Port" value="4747"></parameter> -->
+<!--     <classes> -->
+<!--       <class name="parallelTests.IosTests"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+
+
+  <test name="Test1">
+    <classes>
+      <class name="parallelTests.ParallelTests2"/>
+    </classes>
+  </test> 
+  
+<!--   <test name="Test2"> -->
+<!--   <parameter name="DeviceId" value="emulator-5554"></parameter> -->
+<!--     <classes> -->
+<!--       <class name="parallelTests.GridTest1"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+  <!-- Test -->
+</suite> <!-- Suite -->

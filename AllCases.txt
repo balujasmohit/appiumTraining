@@ -1,0 +1,20 @@
+Selendroid is not working
+Toast Verification - Not working
+Basic Test - Setup and First Test
+Appium Installation steps writing
+NativeApps - Calculator
+Native Apps - Dialing a Number
+Native Apps - Sending an SMS
+Mobile Gestures -  Tapping with TouchAction
+Mobile Gestures -  DragNDrop using Action class and TouchAction longPress and moveTo methods
+Locator Strategies - Using UISelector class for selecting an element
+Mobile Gestures - SwipeActions using TouchAction class and KeyEvent class
+AndroidKeys simulation - Using keyEvent class
+Hybrid Apps Tests- Testing and getting the WebView context of hybrid App.
+Web Applications Test - Locating elements, clicking on an element or entering text
+Takes Screenshot - Taking pic of the launched screen 
+
+
+
+
+
